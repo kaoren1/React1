@@ -1,0 +1,73 @@
+@media screen and (min-device-width: 1368px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
+    .Img{
+         background-color: mintcream;
+         width: 100%;
+         display: grid;
+         justify-items: center;
+         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+         grid-template-rows: auto auto auto auto; /*0.2 1 6 0.4*/
+         grid-template-areas:
+             "One One One One One"
+             "Two Two Two Two Two"
+             "Three Three Three Three Three"
+             "Four Five Six Seven Eight";
+        grid-area: _3;
+    }
+
+    .DopImg{
+    grid-area: Three;
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    max-height: 80%;
+  }
+}
+
+@media only screen and (max-width: 1023px) {
+    .Img {
+       background-color: mintcream;
+       width: 100%;
+       display: grid;
+       grid-template-columns: 1fr;
+       gap: 104px;
+       grid-template-rows: auto auto auto auto auto auto auto auto; /*0.2 1 6 0.4*/
+       grid-template-areas:
+         "One"
+         "Two"
+         "Three"
+         "Four"
+         "Five"
+         "Six"
+         "Seven"
+         "Eight";
+        grid-area: _3;
+   }
+    .DopImg {
+    max-width: 100%;
+    max-height: 1000%;
+    grid-area: Three;
+  }
+}
+
+@media only screen and (max-width: 1366px) and (max-height: 1024px) {
+    .Img {
+       background-color: mintcream;
+       width: 100%;
+       display: grid;
+       justify-items: center;
+       grid-template-columns: 1fr 1fr 1fr 1fr;
+       grid-template-rows: auto auto auto auto auto;
+       grid-template-areas:
+           "One One One One"
+           "Two Two Two Two"
+           "Three Three Three Three"
+           "Four Four Four Four"
+           "Four Four Four Four";
+        grid-area: _3;
+    }
+    .DopImg{
+    max-width: 95%;
+    max-height: 95%;
+    grid-area: Three;
+  }
+}

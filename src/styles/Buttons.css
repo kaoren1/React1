@@ -1,0 +1,176 @@
+@media screen and (min-device-width: 1368px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
+  .Buttons{
+     background-color: mintcream;
+     width: 100%;
+     display: grid;
+     justify-items: center;
+     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+     grid-template-rows: auto auto auto auto; /*0.2 1 6 0.4*/
+     grid-template-areas:
+         "One One One One One"
+         "Two Two Two Two Two"
+         "Three Three Three Three Three"
+         "Four Five Six Seven Eight";
+    grid-area: _4;
+  }
+  .Button_1{
+    grid-area: Four;
+  }
+  .Button_2{
+    grid-area: Five;
+  }
+  .Button_3{
+    grid-area: Six;
+  }
+  .Button_4{
+    grid-area: Seven;
+  }
+  .Button_5{
+    grid-area: Eight;
+  }
+
+  .Button1{
+    font-size: 20px;
+    color: burlywood;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  .Button2{
+    font-size: 20px;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  .Button3{
+    font-size: 20px;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  .Button4{
+    font-size: 20px;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  .Button5{
+    font-size: 20px;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+}
+
+@media only screen and (max-width: 1023px){
+  .Buttons {
+       background-color: mintcream;
+       width: 100%;
+       display: grid;
+       grid-template-columns: 1fr;
+       gap: 104px;
+       grid-template-rows: auto auto auto auto auto auto auto auto; /*0.2 1 6 0.4*/
+       grid-template-areas:
+         "One"
+         "Two"
+         "Three"
+         "Four"
+         "Five"
+         "Six"
+         "Seven"
+         "Eight";
+        grid-area: _4;
+   }
+  .Button_1{
+    grid-area: Four;
+  }
+  .Button_2{
+    grid-area: Five;
+  }
+  .Button_3{
+    grid-area: Six;
+  }
+  .Button_4{
+    grid-area: Seven;
+  }
+  .Button_5{
+    grid-area: Eight;
+  }
+
+  .Button1{
+    font-size: 80px;
+    color: burlywood;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  .Button2{
+    font-size: 80px;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  .Button3{
+    font-size: 80px;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  .Button4{
+    font-size: 80px;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  .Button5{
+    font-size: 80px;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+}
+
+@media only screen and (max-width: 1366px) and (max-height: 1024px){
+  .Buttons {
+       background-color: mintcream;
+       width: 100%;
+       display: grid;
+       justify-items: center;
+       grid-template-columns: 1fr 1fr 1fr 1fr;
+       grid-template-rows: auto auto auto auto auto;
+       grid-template-areas:
+           "One One One One"
+           "Two Two Two Two"
+           "Three Three Three Three"
+           "Four Four Four Four"
+           "Four Four Four Four";
+        grid-area: _4;
+  }
+
+  .Button_1{
+    grid-area: Four;
+  }
+  .Button_2{
+    grid-area: Five;
+  }
+  .Button_3{
+    grid-area: Six;
+  }
+  .Button_4{
+    grid-area: Seven;
+  }
+  .Button_5{
+    grid-area: Eight;
+  }
+
+  .Button1, .Button2, .Button3, .Button4, .Button5{
+    font-size: 40px;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+
+  .Button1{
+    color: burlywood;
+  }
+}

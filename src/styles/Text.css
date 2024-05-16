@@ -1,0 +1,109 @@
+@media screen and (min-device-width: 1368px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
+  .Text{
+     background-color: mintcream;
+     width: 100%;
+     display: grid;
+     justify-items: center;
+     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+     grid-template-rows: auto auto auto auto; /*0.2 1 6 0.4*/
+     grid-template-areas:
+         "One One One One One"
+         "Two Two Two Two Two"
+         "Three Three Three Three Three"
+         "Four Five Six Seven Eight";
+    grid-area: _1;
+  }
+    .TopText{
+    grid-area: One;
+  }
+  .AverageText{
+    grid-area: Two;
+  }
+    .Text1{
+    font-family: 'GT Cinetype Trial';
+    text-align: center;
+    font-size: 14px;
+    color: #50735F;
+  }
+  .Text2{
+    font-family: 'Linotype Didot Std';
+    font-size: 46px;
+    text-align: center;
+    color: #50735F;
+  }
+}
+
+@media only screen and (max-width: 1023px) {
+    .Text {
+       background-color: mintcream;
+       width: 100%;
+       display: grid;
+       grid-template-columns: 1fr;
+       gap: 104px;
+       grid-template-rows: auto auto auto auto auto auto auto auto; /*0.2 1 6 0.4*/
+       grid-template-areas:
+         "One"
+         "Two"
+         "Three"
+         "Four"
+         "Five"
+         "Six"
+         "Seven"
+         "Eight";
+   }
+    .TopText{
+    grid-area: One;
+  }
+  .AverageText{
+    grid-area: Two;
+  }
+    .Text1{
+    font-family: 'GT Cinetype Trial';
+    text-align: center;
+    font-size: 80px;
+    color: #50735F;
+  }
+  .Text2{
+    font-family: 'Linotype Didot Std';
+    font-size: 90px;
+    text-align: center;
+    color: #50735F;
+  }
+}
+
+@media only screen and (max-width: 1366px) and (max-height: 1024px) {
+  .Buttons {
+       background-color: mintcream;
+       width: 100%;
+       display: grid;
+       justify-items: center;
+       grid-template-columns: 1fr 1fr 1fr 1fr;
+       grid-template-rows: auto auto auto auto auto;
+       grid-template-areas:
+           "One One One One"
+           "Two Two Two Two"
+           "Three Three Three Three"
+           "Four Four Four Four"
+           "Four Four Four Four";
+  }
+    .TopText{
+    grid-area: One;
+  }
+
+  .AverageText{
+    grid-area: Two;
+  }
+    .Text1{
+    font-family: 'GT Cinetype Trial';
+    text-align: center;
+    font-size: 30px;
+    color: #50735F;
+  }
+
+  .Text2{
+    font-family: 'Linotype Didot Std';
+    font-size: 40px;
+    text-align: center;
+    color: #50735F;
+  }
+}
